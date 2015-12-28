@@ -1,0 +1,46 @@
+
+#title {
+	text-align: center;
+}
+
+#button {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
+
+#content {
+	margin: auto;
+	width: 50%;
+	
+}
+
+#quote {
+	font-size: 14pt;
+}
+
+#author {
+	font-size: 12pt;
+	text-align: right;
+	font-style: italic;
+}
+
+#twitter-link:link {
+    text-decoration: none;
+    color: #337AB7;
+}
+
+#twitter-link:visited {
+    text-decoration: none;
+    color: #337AB7;
+}
+
+#twitter-link:hover {
+    text-decoration: none;
+    color: #337AB7;
+}
+
+#twitter-link:active {
+    text-decoration: none;
+    color: #337AB7;
+}

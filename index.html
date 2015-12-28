@@ -1,0 +1,56 @@
+<!-- Quote Machine by Jacob Stoebel (jstoebel@gmail.com)
+	This is a javascript project which utalizes a quote API to display a random quote for the user
+
+Aknowledgements:
+
+	Quote API: http://forismatic.com/en/api/
+ 	to make a custom link to twitter: https://dev.twitter.com/web/tweet-button
+
+ 	Help with jsonp: https://learn.jquery.com/ajax/working-with-jsonp/
+-->
+
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+	</head>
+
+	<body>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4 col-md-offset-4">				
+					<div id="title">
+						<h1>Random Quote Machine</h1>
+					</div>		
+				</div>		
+			</div>
+
+			<div class="row">	
+				<div class="col-md-4 col-md-offset-4">
+					<a id="button" class="btn btn-lg btn-info" href="#">Get a Quote</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div id="content" class="well">
+					<div id="quote"></div></br>
+					<div id="author"></div>
+
+				<a id="twitter-link" class="fa fa-twitter fa-3x twitter-share-button"
+				  href="https://twitter.com/intent/tweet?text=Hello%20world"
+				  data-size="large"
+				  target="_blank">
+
+				</a>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>

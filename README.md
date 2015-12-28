@@ -1,2 +1,2 @@
 # quote_machine
-a random quote generator
+This is a simple Javascript app for generating random quotes.  This project uses an AJAX request to pull quotes from a a quote API. Users are given the optioin to Tweet the quote.  See this project in action at http://codepen.io/jstoebel/pen/RroWYm
